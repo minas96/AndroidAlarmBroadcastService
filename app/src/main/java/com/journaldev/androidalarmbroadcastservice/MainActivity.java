@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void startAlarm() {
-
+//that is a real change
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
             alarmManager.setAndAllowWhileIdle(AlarmManager.RTC_WAKEUP, 0, pendingIntent);
         } else if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
